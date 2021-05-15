@@ -1,3 +1,3 @@
 git add --all
-git commit -m "add doglove "
+git commit -m "add My Blog! "
 git push -u origin master
