@@ -1,3 +1,3 @@
 git add --all
-git commit -m "[rename] fontaswom"
+git commit -m "add myblog "
 git push -u origin master
