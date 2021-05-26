@@ -1,10 +1,16 @@
 <template>
-<main>
-  <div>Nuxt.js를 이용한 나만의 블로그</div>
-  <div><h2>제작자 : 배영재</h2><br>작품주제 : 나만의 블로그 제작</div>
-</main>
-  
-  
+<div>
+  <section class="hero is-primary">
+  <div class="hero-body">
+    <p class="title">
+      나만의 블로그 제작기
+    </p>
+    <p class="subtitle"> <i class="fas fa-blog"></i>
+      나의 블로그 탐방
+    </p>
+  </div>
+</section>
+</div>
 </template>
 
 
