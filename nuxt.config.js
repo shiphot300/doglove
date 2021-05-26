@@ -11,7 +11,7 @@ module.exports = {
         ],
         link: [
             { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-            { ref: "stylesheet", href: "https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css" }
+            { rel: "stylesheet", href: "https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css" }
         ],
         script: [{
             defer: "",
