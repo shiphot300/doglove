@@ -32,13 +32,13 @@
       <div class="message=header">
         <p>블로그 제작 이유</p>
        <div class="message-body">
-         
-            <figure class="image is-128x128">
-            <img src="~assets/unnamed.png" alt="">
+
+            <figure class="image">
+            <img src="~assets/unnamed.png" alt="" width="100" height="100">
           </figure>
 
            <figure class="image is-128x128">
-            <img src="~static/unnamed.png" alt="">
+            <img src="~static/unnamed.png" alt="" width="100" height="100">
           </figure>
           
           일기를 쓰는것 처럼 내가 겪었던 일들을 기록하기 위해서
