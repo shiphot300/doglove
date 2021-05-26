@@ -1,3 +1,3 @@
 git add --all
-git commit -m "add fontaswon "
+git commit -m "[rename] fontaswom"
 git push -u origin master
