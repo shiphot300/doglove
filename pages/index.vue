@@ -10,6 +10,7 @@
     </p>
   </div>
 </section>
+<hr>
 <div class="columns">
   <div class="column">
     <article class="message">
