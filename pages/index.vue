@@ -31,16 +31,10 @@
   <div class="column">
     <article class="message">
       <div class="message=header">
-        <p>블로그 제작 이유 : 
-          일기를 쓰는것 처럼 내가 겪었던 일들을 기록하기 위해서
-        </p>
+        블로그 제작 이유 : 누구나가 자유롭게 자기만의 글을 쓰고 읽고 할수 있음 (단 욕설 및 도배 제외!)
        <div class="message-body">
             <figure class="image">
             <img src="~assets/unnamed.png" alt="" width="100" height="100">
-          </figure>
-
-           <figure class="image is-128x128">
-            <img src="~static/unnamed.png" alt="" width="100" height="100">
           </figure>
         </div>
       </div>
@@ -49,17 +43,17 @@
       <table class="table is-striped is-hoverable is-fullwidth">
         <thead>
           <tr>
-            <th>분류</th>
-            <th>이름</th>
+            <th>Blog 정보</th>
+            <th>Blog 주인장</th>
             </tr>
           </thead>
             <tbody>
               <tr>
-                <td>종류</td>
-                <td>다문화 블로그<small>(환영합니다)</small></td>
+                <td>Blog 명 </td>
+                <td>나만의 헛소리 블로그<small>(환영합니다)</small></td>
               </tr>
               <tr>
-                <td>사용자 이름</td>
+                <td>블로그 주인장 </td>
                 <td>bajji</td>
               </tr>
               <tr class="is-selected">
@@ -70,31 +64,7 @@
     
       </table>
     </article>
-    <article class="notification">
-      <table class="table is-striped is-hoverable is-fullwidth">
-        <thead>
-          <tr>
-            <th>분류</th>
-            <th>이름</th>
-            </tr>
-          </thead>
-            <tbody>
-              <tr>
-                <td>종류</td>
-                <td>다문화 블로그<small>(환영합니다)</small></td>
-              </tr>
-              <tr>
-                <td>사용자 이름</td>
-                <td>bajji</td>
-              </tr>
-              <tr class="is-selected">
-                <td>성별</td>
-                <td>남성</td>
-              </tr>
-            </tbody>
-      </table>
-
-    </article>
+  
   </div>
 </div>
 </div>
