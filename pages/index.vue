@@ -62,7 +62,7 @@
                 <td>사용자 이름</td>
                 <td>bajji</td>
               </tr>
-              <tr class="is selected">
+              <tr class="is-selected">
                 <td>성별</td>
                 <td>남성</td>
               </tr>
@@ -87,7 +87,7 @@
                 <td>사용자 이름</td>
                 <td>bajji</td>
               </tr>
-              <tr class="is selected">
+              <tr class="is-selected">
                 <td>성별</td>
                 <td>남성</td>
               </tr>
