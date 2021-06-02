@@ -1,3 +1,3 @@
 git add --all
-git commit -m "[bug] Bullmer error"
+git commit -m "add tables for my blog"
 git push -u origin master

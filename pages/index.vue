@@ -40,15 +40,62 @@
            <figure class="image is-128x128">
             <img src="~static/unnamed.png" alt="" width="100" height="100">
           </figure>
-          
+        
           일기를 쓰는것 처럼 내가 겪었던 일들을 기록하기 위해서
         </div>
       </div>
+    </article>
+    <article class="notification ">
+      <table class="table is-striped is-hoverable is-fullwidth">
+        <thead>
+          <tr>
+            <th>분류</th>
+            <th>이름</th>
+            </tr>
+          </thead>
+            <tbody>
+              <tr>
+                <td>종류</td>
+                <td>다문화 블로그<small>(환영합니다)</small></td>
+              </tr>
+              <tr>
+                <td>사용자 이름</td>
+                <td>bajji</td>
+              </tr>
+              <tr class="is selected">
+                <td>성별</td>
+                <td>남성</td>
+              </tr>
+            </tbody>
+    
+      </table>
+    </article>
+    <article class="notification">
+      <table class="table is-striped is-hoverable is-fullwidth">
+        <thead>
+          <tr>
+            <th>분류</th>
+            <th>이름</th>
+            </tr>
+          </thead>
+            <tbody>
+              <tr>
+                <td>종류</td>
+                <td>다문화 블로그<small>(환영합니다)</small></td>
+              </tr>
+              <tr>
+                <td>사용자 이름</td>
+                <td>bajji</td>
+              </tr>
+              <tr class="is selected">
+                <td>성별</td>
+                <td>남성</td>
+              </tr>
+            </tbody>
+      </table>
+
     </article>
   </div>
 </div>
 </div>
 </template>
-
-
-
