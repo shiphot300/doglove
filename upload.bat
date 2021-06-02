@@ -1,3 +1,3 @@
 git add --all
-git commit -m "[bug] class is slected -> class is-selected"
+git commit -m "create myblog.vue"
 git push -u origin master

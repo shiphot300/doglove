@@ -2,7 +2,8 @@
   <div>
     <nav class="breadcrumb"></nav>
       <ul>
-        <li><nuxt-link to="/"><i class="fas fa-home"></i>홈으로</nuxt-link></li>
+        <li><nuxt-link to="/"><i class="fas fa-home"></i>&nbsp;홈으로</nuxt-link></li>
+        <li><nuxt-link to ="/myblog"><i class="fas fa-file-signature"></i>&nbsp;나의 블로그</nuxt-link></li>
       </ul>
     <nuxt/>
     <footer class="footer">
@@ -13,4 +14,3 @@
 </footer>
   </div>
 </template>
-

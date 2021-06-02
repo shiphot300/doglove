@@ -19,7 +19,7 @@
       <div class="message-body">
         <figure class="image">
         
-        <img src="https://lh3.googleusercontent.com/proxy/E7B5aF9pl0sYho0uuj1aKmCW4kKbZZBcGCk6wjhzUv0HAai5jd1cHdaN4bkwtqf0aqxzIsfU55loLLSLGvaAClP5hhVczFx2bF66ifxGiaEskDZcDMJOwCdGb4Vyef-sLLRPfdEMldkK7rNHRNktArcodomMEhGseV8YAfk_PkFbiMARaAlYDR3kJcggK13E41wilQKLBuxU-inWtuepJ-88no7JUX4TfmmRPX7TdHlgIG55eqgo9iD2RlCyXEMSKYmnTN4wGfM9NSYB1qS7RPqIDNkYl6t7NPYWquk1CyOBBPZzZY4yoEAJ-9E9J5A0XOtNRgPPfR4VjfIiqUI"
+        <img src="https://img.daumcdn.net/daumblog_admin/static/top/images/openGraph/opengraph.png?v=1"
         alt="" width="100" height="100">
         
         </figure>
@@ -30,9 +30,10 @@
   <div class="column">
     <article class="message">
       <div class="message=header">
-        <p>블로그 제작 이유</p>
+        <p>블로그 제작 이유 : 
+          일기를 쓰는것 처럼 내가 겪었던 일들을 기록하기 위해서
+        </p>
        <div class="message-body">
-
             <figure class="image">
             <img src="~assets/unnamed.png" alt="" width="100" height="100">
           </figure>
@@ -40,8 +41,6 @@
            <figure class="image is-128x128">
             <img src="~static/unnamed.png" alt="" width="100" height="100">
           </figure>
-        
-          일기를 쓰는것 처럼 내가 겪었던 일들을 기록하기 위해서
         </div>
       </div>
     </article>
