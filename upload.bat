@@ -1,4 +1,4 @@
 
 git add --all
-git commit -m "push dogBreeds list all"
+git commit -m "add the web address for netlify.com"
 git push -u origin master
