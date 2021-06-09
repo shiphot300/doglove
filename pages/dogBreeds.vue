@@ -12,11 +12,44 @@
           </section>
         <hr />
         <section class="columns"></section>
-        <div class="columns"></div>
-        <div class="columns"></div>
-    </div>
+        <div class="columns">
+          <table class="table">
+            <thead>
+              <th>번호</th>
+              <th>강아지 품종</th>
+              <th>강아지 아품종</th>
+            </thead>
+            <tbody>
+              <template v-for ="pos in tableDogKeys.length">
+            
+                <tr :key="pos">
+                    <td>{{ pos }}</td>
+                    <td>{{ tableDogKeys[pos -1] }}</td>
+                    <td>
+                      <span class="tag is-black" v-if="tableDogBreeds [tableDogKeys[pos - 1]], ar.length ==0">없음</span>
+                    </td>
+                  </tr>
+                  </template>
+</tbody>
+</table>
+<div class="content">
+    <p class="tag is-danger">출처</p><a href="https://dog.ceo/dog-api/documentation/">Dog CEO</a><br>
+    <a href="" class="button is-primary is-small"></a>
+</div>
+</div>
+<div class="columns"></div>
+</div>
 </template>
 <script>
     import axios from 'axios';
-    export default {};
+    export default {
+        async asyncData() {
+            const dogBreeds = await axios.get('https://dog.ceo/api/breeds/list/all');
+            //alert(Object.keys(dogBreeds));
+            return {
+                tableDogBreeds: dogBreeds.data.message,
+                tableDogKeys: Object.keys(dogBreeds.data.message),
+            };
+        },
+    };
 </script>
