@@ -1,19 +1,22 @@
 <template>
     <div>
-        <section class="hero is-link">
+        <section class="hero is-warning">
             <div class="hero-body">
-                <p class="title"> <i class="fas fa-blog"></i>
-                  강아지품종
-                </p>
-                <p>
-                    <p class="subtitle">
-                        강아지 다양한 품종
-                </p>
+              <p class="title">
+                강아지의 종류
+              </p>
+              <p class="subtitle">
+                강아지 품종 설명
+              </p>
             </div>
-        </section>
+          </section>
         <hr />
         <section class="columns"></section>
         <div class="columns"></div>
         <div class="columns"></div>
     </div>
 </template>
+<script>
+    import axios from 'axios';
+    export default {};
+</script>
