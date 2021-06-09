@@ -1,4 +1,4 @@
 
 git add --all
-git commit -m "Fix dogBreeds v-bind"
+git commit -m "add dogBreeds subbreed"
 git push -u origin master

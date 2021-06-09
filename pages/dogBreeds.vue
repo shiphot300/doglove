@@ -26,10 +26,11 @@
                     <td>{{ pos }}</td>
                     <td>{{ tableDogKeys[pos -1] }}</td>
                     <td>
-                      <span class="tag is-black" v-if="tableDogBreeds [tableDogKeys[pos - 1]], ar.length ==0">없음</span>
-                    </td>
-                  </tr>
-                  </template>
+                      <span class="tag is-black" v-if="ar =tableDogBreeds [tableDogKeys[pos - 1]], ar.length == 0">없음</span>
+                      <span v-else><template v-for="subbreed in ar"><span class="tag is-success" :key="subbreed">{{subbreed}}</span>&nbsp;</template></span>
+</td>
+</tr>
+</template>
 </tbody>
 </table>
 <div class="content">
