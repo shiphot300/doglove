@@ -1,4 +1,4 @@
 
 git add --all
-git commit -m "add korean city imformation in myblog"
+git commit -m "fix netlify site"
 git push -u origin master
