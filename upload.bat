@@ -1,4 +1,4 @@
 
 git add --all
-git commit -m "no korean"
+git commit -m "create dogBreeds"
 git push -u origin master

@@ -4,6 +4,7 @@
       <ul>
         <li><nuxt-link to="/"><i class="fas fa-home"></i>&nbsp;홈으로</nuxt-link></li>
         <li><nuxt-link to ="/myblog"><i class="fas fa-file-signature"></i>&nbsp;My blog Users</nuxt-link></li>
+        <li><nuxt-link to ="/dogBreeds"><i class="fas fa-globe-americas"></i>&nbsp;강아지품종</nuxt-link></li>
       </ul>
     <nuxt/>
     <footer class="footer">
