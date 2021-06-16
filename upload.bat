@@ -1,4 +1,4 @@
 
 git add --all
-git commit -m "fix netlify site"
+git commit -m "add Toast UI CHART"
 git push -u origin master
