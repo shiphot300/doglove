@@ -12,7 +12,7 @@
         </section>
         <section class="columns">
             <div class="column">
-                <div id="chart"></div>
+                <div id="lineChart"></div>
             </div>
             <div class="column"></div>
         </section>
@@ -20,11 +20,16 @@
 </template>
 <script>
     import toastuiChart from '~/plugins/toastuiChart';
+    let showChart = false;
     export default {
         mounted() {
-            if (process.client) {
-                toastuiChart();
+            if (!showChart && process.client) {
+                if (!toastuiChart('lineChart')) return;
+                showChart = true;
             }
+        },
+        destroyed() {
+            showChart = false;
         },
     };
 </script>
