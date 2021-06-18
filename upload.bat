@@ -1,4 +1,4 @@
 
 git add --all
-git commit -m "[bug] fix multiple display of charts in myblogchart.vue"
+git commit -m "fix station.json"
 git push -u origin master
