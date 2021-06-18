@@ -1,23 +1,29 @@
 <template>
     <div>
-        <section class="hero is-link">
+        <section class="hero is-warning">
             <div class="hero-body">
-                <p class="title"> <i class="fas fa-blog"></i>
-                  Blog User : 이름, 나이, 취미 
-                </p>
+              <p class="title">
+                서울 지하철
+              </p>
+              <p class="subtitle">
+                모든 지하철 정보및 좌표
+              </p>
             </div>
-        </section>
-        <section class="columns">
-            <div class="column">
-                <table class="table is-striped is-hoverable is-fullwidth">
-                    <thead>
-                        <tr>
-                            <th>이름</th>
-                            <th>나이</th>
-                            <th>성별</th>
-                        </tr>
-                    </thead>
-                    <tbody>
+            </section>
+            <hr />
+            <section class="columns">
+                <div class="column">
+                    <table class="table is-striped is-hoverable is-fullwidth">
+                        <thead>
+                            <tr>
+                                <th>지하철 00선</th>
+                                <th>지하철 역</th>
+                                <th>전철 code</th>
+                                <th>위도</th>
+                                <th>좌표</th>
+                            </tr>
+                        </thead>
+                        <tbody>
                         <template v-for ="pos in tablemyblog_age.length">
                             <tr :key="pos">
                                 <td>{{tablemyblog_user_name[pos -1]}}</td>
@@ -40,13 +46,13 @@
 </template>
 <script>
     import myblog from "~/assets/myblog_age.json";
-    import myblog_hobby from "~/assets/myblog_hobby.json";
+    import myblog_station from "~/assets/myblog_hobby.json";
     import myblog_user from "~/assets/myblog_user_name.json";
     export default {
         data() {
             return {
                 tablemyblog_age: myblog.names,
-                tablemyblog_hobby: myblog_hobby.names,
+                tablemyblog_hobby: myblog_station.names,
                 tablemyblog_user_name: myblog_user.names
             };
         }
