@@ -1,4 +1,4 @@
 
 git add --all
-git commit -m "fix station.json"
+git commit -m "add SeoulStation.vue"
 git push -u origin master
