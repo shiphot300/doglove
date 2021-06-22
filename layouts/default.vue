@@ -7,6 +7,7 @@
         <li><nuxt-link to ="/koreancity"><i class="fas fa-city"></i>&nbsp;대한민국모든도시모음</nuxt-link></li>
         <li><nuxt-link to ="/koreanhistory"><i class="fas fa-history"></i>&nbsp;한국의 역사</nuxt-link></li>
         <li><nuxt-link to ="/Seoulstation"><i class="fas fa-subway"></i>&nbsp;서울 지하철</nuxt-link></li>
+        <li><nuxt-link to ="/koreanweather"><i class="fas fa-cloud-sun"></i>&nbsp;일기예보</nuxt-link></li>
       </ul>
     <nuxt/>
     <footer class="footer">
