@@ -13,18 +13,8 @@
         <section class="columns">
             <div class="column"></div>
             <div class="column">
-                <div id="Chart"></div>
+                <div id="chart"></div>
             </div>
         </section>
     </div>
 </template>
-<script>
-    import toastuiChart from '~/plugins/toastuiChart';
-    export default {
-        mounted() {
-            if (process.client) {
-                toastuiChart();
-            }
-        },
-    };
-</script>
