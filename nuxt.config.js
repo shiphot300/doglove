@@ -12,8 +12,7 @@ module.exports = {
         link: [
             { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
             { rel: "stylesheet", href: "https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css" },
-            { rel: "stylesheet", href: "https://uicdn.toast.com/chart/latest/toastui-chart.min.css" }
-
+            { rel: "stylesheet", href: "https://uicdn.toast.com/chart/latest/toastui-chart.min.css" },
 
         ],
         script: [{
@@ -22,7 +21,7 @@ module.exports = {
             },
             {
                 src: "https://uicdn.toast.com/chart/latest/toastui-chart.min.js"
-            }
+            },
 
         ]
     },
@@ -48,7 +47,5 @@ module.exports = {
             }
         },
     },
-    plugins: [
-        { src: '~/plugins/toastuiChart.js', mode: 'clinet' },
-    ],
+    plugins: [{ src: '~/plugins/toastuiChart.js', mode: 'client' }],
 };

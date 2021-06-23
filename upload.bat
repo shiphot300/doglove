@@ -1,4 +1,4 @@
 
 git add --all
-git commit -m "fix server => client"
+git commit -m "add korean weather and chart"
 git push -u origin master
